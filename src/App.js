@@ -51,12 +51,14 @@ import React from "react";
 // import SpacingDemo from "./emotion/spacingDemo";
 // import CustomPaginationActionsTable from "./table/tablePaination";
 // import FakeUsers from "./sysDemo/FakeUsers";
-import LoginForm from "./form/LoginForm";
+// import LoginForm from "./form/LoginForm";
+import FormBasic from "./form/FormBasic";
 
 function App() {
   return (
     <>
-      <LoginForm />
+      <FormBasic />
+      {/* <LoginForm /> */}
       {/* <SpacingGrid /> */}
       {/* <RowAndColumnSpacing /> */}
       {/* <ResponsiveGrid/> */}
