@@ -52,12 +52,18 @@ import React from "react";
 // import CustomPaginationActionsTable from "./table/tablePaination";
 // import FakeUsers from "./sysDemo/FakeUsers";
 // import LoginForm from "./form/LoginForm";
-import FormBasic from "./form/FormBasic";
+// import FormBasic from "./form/FormBasic";
+// import FormSubmission from "./form/FormSubmission";
+// import FormCheckbox from "./form/FormCheckbox";
+import FormWithMUI from "./form/FormWithMUI";
 
 function App() {
   return (
     <>
-      <FormBasic />
+    <FormWithMUI />
+    {/* <FormCheckbox /> */}
+    {/* <FormSubmission /> */}
+      {/* <FormBasic /> */}
       {/* <LoginForm /> */}
       {/* <SpacingGrid /> */}
       {/* <RowAndColumnSpacing /> */}
